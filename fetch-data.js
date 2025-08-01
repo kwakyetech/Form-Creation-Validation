@@ -1,6 +1,6 @@
 
 // Step 1: Initialize the Async Function
-const fetchUserData = async () =>{
+async function fetchUserData() {
   // Step 2: Define the API URL
     const apiUrl = 'https://jsonplaceholder.typicode.com/users';
 
